@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+  }
+  
+  .navbar-item {
+    margin: 0 10px; /* Add spacing between items */
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block; /* Make links occupy the full list item height */
+  }
+  
+  .navbar-link:hover {
+    background-color: #555; /* Add hover effect */
+  }
+  
