@@ -3,13 +3,13 @@ import {getFirestore, serverTimestamp} from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "Your_apiKey",
-    authDomain: "Your_authDomain",
-    projectId: "Your_projectId",
-    storageBucket: "Your_storageBucket",
-    messagingSenderId: "Your_messagingSenderId",
-    appId: "Your_appId",
-    measurementId: "Your_measurementId"
+    apiKey: "AIzaSyAk-TXVx1adO9X4LQISchV9sulx5Dg0iNA",
+    authDomain: "mvpapp-project-a993c.firebaseapp.com",
+    projectId: "mvpapp-project-a993c",
+    storageBucket: "mvpapp-project-a993c.appspot.com",
+    messagingSenderId: "31467154932",
+    appId: "1:31467154932:web:d7cb114d9fa5dc8931dda1",
+    measurementId: "G-GPPRFKW6K6"
 };
 
 const app = initializeApp(firebaseConfig);
